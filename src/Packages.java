@@ -1,5 +1,9 @@
+
 package src;
+
 import java.util.Scanner;
+
+
 
 public class Packages {
     
@@ -8,6 +12,11 @@ public class Packages {
         
         Scanner sc = new Scanner(System.in);
 
-        
+        inknowledge.Packages pacages = new inknowledge.Packages(); // package
+  // full name lihayala lagat qulified class sobat
+  // . lavun lihayala lagata pacage 
+
+  
+  
     }
 }
