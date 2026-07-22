@@ -1,7 +1,7 @@
 public class vehical {
     // inheritance class 
 
-    private int numberOfTires;
+     int numberOfTires; // he defult kela tr apan twowheeler class madhe direct value set karu shakato pn private madhe nay check this in twowheeler class
     // this is setter method
     public void setNumofty(int numoftyers){
         this.numberOfTires=numoftyers;
