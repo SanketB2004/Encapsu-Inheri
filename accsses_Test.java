@@ -4,18 +4,26 @@ public class accsses_Test {
         
 
         publicc car = new publicc();
+car.setFullType("Ethenol Nitin Gadkari");
+car.CarColor("Black &  White Line");
+car.getEngineNum();
+
+System.out.println(car.getEngineNum());
 
 
-        car.color ="Red";
-        car.model = "Defender";
-        System.out.println(car);
+//         car.color ="Red";
+//         car.model = "Defender";
+//         System.out.println(car);
 
-publicc NewCar = new publicc("Black" , "BMW" , 5 , 500000);
+// publicc NewCar = new publicc("Black" , "BMW" , 5 , 500000);
 
 
-System.out.println(NewCar);
+// System.out.println(NewCar);
 
-DefaultTest  def = new DefaultTest();
+// DefaultTest  def = new DefaultTest();
+
+
+
         
     }
 

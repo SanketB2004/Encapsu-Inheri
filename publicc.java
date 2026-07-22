@@ -10,6 +10,53 @@ public class publicc {
     long costOfpurches; //make defult 
 
 
+
+    private int CngLevel;
+
+    private int EngineNumber = 12345;
+
+    private String FuleType ;
+
+    private String CarColourMixedColor;
+
+
+    // Getter Methods
+
+    public int getCngLevel() {
+        return CngLevel;
+    }
+
+    public int getEngineNum(){
+
+        return EngineNumber;
+    }
+
+    // setter methods 
+
+    void setFullType(String FuleTy){
+
+        FuleTy=FuleType;
+    }
+
+    void CarColor(String Colour){
+
+        Colour=CarColourMixedColor;
+    }
+
+
+
+
+
+
+
+     void setModel(String model) {
+        this.model = model;
+    }
+
+    public long getCostOfpurches() {
+        return costOfpurches;
+    }
+
     public publicc(){
 
     }
