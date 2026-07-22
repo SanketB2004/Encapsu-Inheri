@@ -11,5 +11,8 @@ public class vehical {
         System.out.printf("I am going from  place A to B using %d using tires\n",numberOfTires);
 
     }
+
     // inheritance 
+    
+
 }
