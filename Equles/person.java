@@ -16,30 +16,42 @@ public class person {
         this.id = id;
     }
 
+   
+
+
+
+
     @Override
     public boolean equals(Object obj) {
-
-        if (this == obj) {
+        if (this == obj)
             return true;
-        }
-
-        if (!(obj instanceof person)) {
+        if (obj == null)
             return false;
-        }
-
-        person per = (person) obj;
-
-        return Objects.equals(this.name, per.name)
-                && this.age == per.age
-                && Objects.equals(this.id, per.id);
+        if (getClass() != obj.getClass())
+            return false;
+        person other = (person) obj;
+        if (name == null) {
+            if (other.name != null)
+                return false;
+        } else if (!name.equals(other.name))
+            return false;
+        if (age != other.age)
+            return false;
+        if (id == null) {
+            if (other.id != null)
+                return false;
+        } else if (!id.equals(other.id))
+            return false;
+        return true;
     }
-    
 
     @Override
     public int hashCode() {
         
         return Objects.hash(name, age, id);
     }
+
+
 
     public String getName() {
         return name;
