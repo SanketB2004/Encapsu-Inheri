@@ -1,7 +1,7 @@
 public class inheritance_test {
     public static void main(String[] args) {
         
-        vehical vehicall = new vehical();
+        vehical vehicall = new vehical(2);
 
         twowheeler twowheelerr = new twowheeler();
 
@@ -14,7 +14,7 @@ public class inheritance_test {
         motor.balance();;
         motor.start();;
 
-        
+  
     }
 }
 // inheritance 

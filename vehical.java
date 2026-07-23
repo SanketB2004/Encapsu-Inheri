@@ -12,6 +12,10 @@ public class vehical {
 
     }
 
+    public vehical(int numberOfTires) {
+        this.numberOfTires = numberOfTires;
+    }
+
     // inheritance 
     
 
