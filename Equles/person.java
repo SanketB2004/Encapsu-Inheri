@@ -5,7 +5,9 @@ import java.util.Objects;
 public class person {
 
     private String name;
+
     private int age;
+
     private String id;
 
     public person(String name, int age, String id) {
@@ -31,9 +33,11 @@ public class person {
                 && this.age == per.age
                 && Objects.equals(this.id, per.id);
     }
+    
 
     @Override
     public int hashCode() {
+        
         return Objects.hash(name, age, id);
     }
 
